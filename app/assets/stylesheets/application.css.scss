@@ -24,6 +24,10 @@ html, body {
   background: linear-gradient(to left, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.alert-notice {
+  display: none;
+}
+
 // To fix formatting homepage header
 .home-callout {
   color: #001b33;
@@ -57,11 +61,9 @@ html, body {
   }
 }
 
-.btn-primary:hover,.btn-primary:active {
-  background-color: #001b33;
-}
-
+// Log in/Sign up buttons
 .btn-primary, .btn-primary:visited {
     background-color: #2c3e50;
     border-color: #2c3e50;
 }
+
